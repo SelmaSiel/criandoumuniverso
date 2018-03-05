@@ -1,0 +1,215 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>Estrutura</title>
+
+<link rel="stylesheet" type="text/css" href="selmamesquita.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<!---Content starts here -->
+<body>
+
+<header>
+
+ <a id="menu_icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z" fill="white"/>
+        </svg>
+    </a>
+
+	
+	 <div id="drawer">
+        <nav>
+            <a href="#unordered"> Unordered List </a>
+            <a href="#ordered"> Ordered List</a>
+            <a href="#color"> Color Codes</a>
+            <a href="#video"> Video Tags</a>
+            <a href="#table"> Table Tags</a>
+        </nav>
+    </div>
+
+	
+<h1>Como Criar Banda Desenhada? </h1>
+<p> Banda Desenhada é uma forma de linguagem conhecida e utilizada ao redor do mundo.
+ </p>
+</header>
+
+<nav id="tabletPC" class="col-3">
+<a href="#unordered"> Unordered List</a> <br>
+<a href="#ordered"> Ordered List</a>  <br>
+<a href="#color"> Color Codes</a>  <br>
+<a href="#video"> Video</a> <br>
+<a href="#table"> Table</a> <br>
+</nav>
+
+
+
+
+
+<div id="container" class="col-9">
+    
+	
+	
+								
+							<section class="slideshow-container">
+							<h2>HTML Slideshow</h2>
+							<article class="mySlides">
+							<figure>
+							<img src="http://i68.tinypic.com/2ljsy0h.png">
+							<figcaption>Figure 1: Running to learn HTML5!</figcaption>
+							</figure>
+							</article>
+							<article class="mySlides">
+							<figure>
+							<img src="http://i65.tinypic.com/2vlnmvq.png">
+							<figcaption>Figure 2: Learning HTML5 is too easy...</figcaption>
+							</figure>
+							</article>
+
+							<article class="mySlides">
+							<figure>
+							<img src="http://i65.tinypic.com/2mrbqz6.png">
+							<figcaption>Figure 3: Are you having difficulties with HTML5?</figcaption>
+							</figure>
+							</article>
+							<div class="dotpoints">
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							</div>
+							</section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<section>
+<a name="unordered">
+<h2> Importante, antes de começar: </h2>
+<i> Existem pequenos pormenores que devem ser respeitados:  </i>
+<ul>
+<li> Estudo </li>
+<li> Dedicação </li>
+<li> Preserverança </li>
+<li> Nunca desistir </li>
+<li> Ter a certeza do que queremos </li>
+</ul>
+</section>
+
+<section>
+<a name="ordered">
+	<h3>  O inicío </h2>
+Como começar:
+<ol>
+<li><u> Ver tutoriais, pesquisar sobre outros artistas e o percurso que estes tiveram. </u></li>
+<li><u> Treinar todos os dias, diversos temas, como anatomia, composição, perspetiva, entre outros.  </u></li>
+
+</ol> 
+	
+</section>
+
+<section>
+	<a name="color">
+    <h4> Galeria </h2>
+Algumas imagens
+<p>
+<img style="-webkit-user-select: none;background-position: 0px 0px, 10px 10px;background-size: 20px 20px;background-image:linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%),linear-gradient(45deg, #eee 25%, white 25%, white 75%, #eee 75%, #eee 100%);" src="https://files.tofugu.com/articles/interviews/2015-04-27-shueisha-tour/shueisha-employee-artist.jpg">
+
+<img style="-webkit-user-select: none;background-position: 0px 0px, 10px 10px;background-size: 20px 20px;background-image:linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%),linear-gradient(45deg, #eee 25%, white 25%, white 75%, #eee 75%, #eee 100%);" src="http://farm9.staticflickr.com/8339/8178127013_1a9544a9e2.jpg">
+
+
+</section>
+
+<section>
+<a name="video">
+<h5> Vídeo tutorial, com conselhos de como começar nesta carreira </h5>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UpElnGmEfD8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+
+</section>
+	
+<section>
+<a name="table">
+<table border=“1px”>
+<th colspan="3"> Heading </th>
+<tr>
+<td> Column 1 </td> <td> Column 2 </td> <td> Column 3
+</td>
+</tr>
+<tr>
+<td rowspan=”4"> Cell Spanning in 3 Rows (2nd and 3rd
+merged)</td>
+<td rowspan="3"> Cell Spanning in 2 Rows (1st and 2nd Cell
+merged) </td>
+<td> 1st Cell </td>
+</tr>
+<tr>
+<td> 2nd Cell </td>
+</tr>
+<tr>
+<td> 3rd Cell </td>
+</tr>
+<tr>
+<td> 3rd Cell </td> <td> 4th Cell </td>
+</tr>
+</table>
+</section>
+
+</div>
+
+<aside class="col-2">
+<h1>Conselho</h1>
+<p>O importante no final de contas, é nunca desistir.</p>
+</aside>
+
+<footer>
+<h2>Developed by Selma Mesquita </h2>
+</footer> 
+
+
+
+							<script>
+							var slideIndex = 0;
+							showSlides();
+							function showSlides() {
+							var i = null;
+							var slides = document.getElementsByClassName("mySlides");
+							var dots = document.getElementsByClassName("dot");
+							for (i = 0; i < slides.length; i++) {
+							slides[i].style.display = "none";
+							}
+							slideIndex++;
+							if (slideIndex> slides.length) {slideIndex = 1}
+							for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(" active", "");
+							}
+							slides[slideIndex-1].style.display = "block";
+							dots[slideIndex-1].className += " active";
+							setTimeout(showSlides, 3000); // Change image every 3 seconds
+							}
+							
+							
+							
+														 var menu_icon = document.querySelector('#menu_icon');
+								var container = document.querySelector("#container");
+								var drawer = document.querySelector('#drawer');
+
+								menu_icon.addEventListener('click', function (e) {
+									drawer.classList.toggle('open');
+									e.stopPropagation();
+								});
+								container.addEventListener('click', function () {
+									drawer.classList.remove('open');
+								});
+
+
+							</script>
+</body>
+<!---Content ends here -->
+</html> 
